@@ -15,7 +15,7 @@ Where 'points.txt' contains:
 2:14:53
 ```
 
-'output.mp4' will contain 'video_file.mp4' from 1:23:04 to 1:40:25 and from 2:10:12 to 2:14:53.
+'output.mp4' will include 'video_file.mp4' from 1:23:04 to 1:40:25 and from 2:10:12 to 2:14:53.
 
 ## Special values
 '0' means 'from the start' and not indicating an endpoint for the final fragement means 'until the end'. For example,
@@ -25,3 +25,6 @@ Where 'points.txt' contains:
 1:06:44
 ```
 means from the start until 24:04 and from 1:06:44 until the end.
+
+## Note
+Due to codec limitations, some fragments may start a few seconds sooner than specified.
