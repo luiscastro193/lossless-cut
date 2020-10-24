@@ -5,9 +5,10 @@ Shell script to cut media files. It's extremely fast and it completely preserves
 The media file path and the cut points file using FFmpeg's time duration syntax (https://ffmpeg.org/ffmpeg-utils.html#time-duration-syntax)
 
 ## Example
+```
 ./cut.sh video_file.mp4 points.txt
-
-Where 'points.txt' contains:
+```
+where 'points.txt' contains:
 ```
 1:23:04
 1:40:25
@@ -18,7 +19,7 @@ Where 'points.txt' contains:
 'output.mp4' will include 'video_file.mp4' from 1:23:04 to 1:40:25 and from 2:10:12 to 2:14:53.
 
 ## Special values
-'0' means 'from the start' and not indicating an endpoint for the final fragement means 'until the end'. For example,
+'0' means 'from the start' and not indicating an endpoint for the final fragment means 'until the end'. For example,
 ```
 0
 24:02
