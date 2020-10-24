@@ -1,5 +1,5 @@
 # lossless-cut
-Shell script to cut media files. It's extremely fast and it completely preserves the quality of the original video. Based on FFmpeg.
+Shell script to cut media files. It's extremely fast and it completely preserves the quality of the original file. Based on FFmpeg.
 
 ## Parameters
 The media file path and the cut points file using FFmpeg's time duration syntax (https://ffmpeg.org/ffmpeg-utils.html#time-duration-syntax)
