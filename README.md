@@ -29,3 +29,9 @@ means from the start until 24:04 and from 1:06:44 until the end.
 
 ## Note
 Due to codec limitations, some fragments may start a few seconds sooner than specified.
+
+## Subtitles
+The In order to include some default subtitles, the command line parameters would be:
+```
+ffmpeg -i video_file.mkv -i subtitles_file.srt -c copy -disposition:s:0 default output.mkv
+```
